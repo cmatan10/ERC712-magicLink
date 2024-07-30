@@ -1,0 +1,156 @@
+.card {
+  width: 300px;
+  margin: auto;
+  padding: 15px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  background-color: white;
+  font-family: Arial, sans-serif;
+}
+
+.content {
+  padding: 15px;
+}
+
+.header {
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center; /* Center the heading text */
+}
+
+.description {
+  font-size: 12px;
+  margin-bottom: 15px;
+  text-align: center; /* Center the description text */
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.formGroup {
+  display: flex;
+  flex-direction: column;
+}
+
+.formGroup label {
+  font-size: 10px;
+  margin-bottom: 5px;
+}
+
+.formGroup input {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 12px;
+}
+
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.price {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.button {
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 14px;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.logoContainer {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  margin-top: 10px;
+}
+  
+  .logo {
+    height: 24px;
+    margin: 0 10px;
+  }
+  
+
+  .popup {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .popupContent {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .popupContent h2 {
+    margin-top: 0;
+  }
+  
+  .popupContent a {
+    color: blue;
+    text-decoration: none;
+    display: block;
+    margin: 10px 0;
+  }
+  
+  .popupContent .appImage {
+    width: 160px;
+    height: auto;
+    margin: 10px auto; /* Center the image horizontally */
+    display: block; /* Make sure it behaves as a block element */
+    border-radius: 15px; /* Apply rounded corners */
+  }
+  
+  .storeLogos {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+  }
+  
+  .storeLogo {
+    width: 145px; /* Set a fixed width */
+    height: 40px; /* Set a fixed height */
+    object-fit: contain; /* Ensure the aspect ratio is maintained */
+    cursor: pointer; /* Change cursor to hand pointer */
+  }
+  
+  .popupContent button {
+    background: #007BFF;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .popupContent button:hover {
+    background: #0056b3;
+  }
+  
