@@ -110,4 +110,3 @@ app.get('/relayMint', (req, res) => {
 });
 
 initAPI();
-
